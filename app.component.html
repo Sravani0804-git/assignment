@@ -27,7 +27,7 @@
     <div>
       <span style="margin-left:10px">Monthly Income</span>
       <mat-card-content>
-        <h1 [(ngModel)]="value" class= "Header" id="showValue">0</h1>
+        <h1 [(ngModel)]="value" id="showValue" style="margin-left:10px">0</h1>
       
         <mat-slider (input)="onInputChange($event)" style="width: 280px;margin-top:-25px;margin-left: 10px;"
           class="Income"
@@ -44,7 +44,7 @@
       <br>
       <span style="margin-left: 10px;">Monthly Expense</span>
       <mat-card-content>
-        <h1 [(ngModel)]="value" id="showExpense" class= "Header" >0</h1>
+        <h1 [(ngModel)]="value" id="showExpense" style="margin-left:10px">0</h1>
     
         <mat-slider (input)="onExpenseChange($event)" style="width: 280px;margin-top:-20px;margin-left: 10px;"
             class="Expense"
@@ -61,12 +61,12 @@
       <form style="margin-left:10px">
         <h4 style="margin-left:10px">Repayment Teure</h4>
         <mat-form-field appearance="fill">
-          <mat-label>Select Months</mat-label>
+          <mat-label>3 Months</mat-label>
           <mat-select>
-            <mat-option value="3 Months">3 Months</mat-option>
-            <mat-option value="6 Months">6 Months</mat-option>
-            <mat-option value="9 Months">9 Months</mat-option>
-            <mat-option value="12 Months">12 Months</mat-option>
+            <mat-option>3 Months</mat-option>
+            <mat-option>6 Months</mat-option>
+            <mat-option>9 Months</mat-option>
+            <mat-option>12 Months</mat-option>
           </mat-select>
         </mat-form-field>
       </form>
@@ -81,13 +81,13 @@
     </div>
   </div>
   <div class="getMoney">
-    <span style="margin-left:35px;margin-top: 75px;">Loan Amount</span>
+    <span style="color: white;size: 15px;font-size: 20px;margin-left:35px;margin-top: 75px;position: absolute;">Loan Amount</span>
     <br>
-    <span style="margin-left:45px;margin-top:80px;">₹ 100000</span>
+    <span style="color:white;font-size: 20px;margin-left:45px;margin-top:80px;position: absolute;">₹ 100000</span>
     <br>
-    <span style="margin-left:35px;margin-top:90px;">Your EMI will be</span>
+    <span style="color:white;font-size: 20px;margin-left:35px;margin-top:90px;position: absolute;">Your EMI will be</span>
     <br>
-    <span style="margin-left:45px;margin-top:100px;">₹ 15000</span>
+    <span style="color:white;font-size: 20px;margin-left:45px;margin-top:100px;position: absolute;">₹ 15000</span>
     <br>
     <button type="button" id ="startButton" style="position: absolute;margin-left: 50px;margin-top: 110px;height: 30px;border-radius: 10px;color: blue;">Get Money</button>
   </div>

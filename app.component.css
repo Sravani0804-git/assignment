@@ -28,15 +28,6 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.getMoney span{
-    color: white;
-    font-size: 20px;
-    position: absolute;
-}
-.Header{
-    margin-left:10px;
-    font-size: 15px;
-}
 #startButton:hover{
     background-color: purple;
 }
