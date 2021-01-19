@@ -1,0 +1,73 @@
+.container{
+    top:20px;
+    left: 10px;
+    width: 100%;
+    height: 600px;
+    background: #faf7f7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+}
+.elgibility{
+    margin-top:100px;
+    margin-left: 700px;
+    width: 300px;
+    height: 450px;
+    background: white 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    border-radius: 20px;
+}
+.getMoney{
+    margin-top:205px;
+    margin-left: 1010px;
+    width: 200px;
+    height: 300px;
+    background-color: purple;
+    opacity: 1;
+    position: absolute;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#startButton:hover{
+    background-color: purple;
+}
+.container img{
+    top: 27px;
+left: 120px;
+width: 123px;
+height: 123px;
+}
+.logIn{
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    opacity: 1;
+    width: 100px;
+    height: 30px;
+}
+#blobSmall{
+    margin-top: 100px;
+margin-left: -120px;
+width: 400px;
+position: absolute;
+height: 250px;
+background: transparent 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#collect{
+    margin-top:260px;
+    position: absolute;
+    width: 340px;
+    height: 200px;
+    margin-left: 92px;
+}
+#separator{
+    margin-top: 210px;
+    margin-left: 220px;
+    position: absolute;
+    width: 150px;
+    height: 6px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7
+}
